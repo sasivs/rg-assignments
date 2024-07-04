@@ -8,8 +8,8 @@ import java.util.ArrayList;
 public class EmployeeJDBC {
     private static final String JDBC_DRIVER = "org.postgresql.Driver";
     private static final String DB_URL = "jdbc:postgresql://localhost:5432/rg_assignments";
-    private static final String USER = "postgres";
-    private static final String PASS = "postgresql";
+    private static final String USER = "";
+    private static final String PASS = "";
 
     public void connect() throws SQLException {
         Connection connection = DriverManager.getConnection(DB_URL, USER, PASS);
